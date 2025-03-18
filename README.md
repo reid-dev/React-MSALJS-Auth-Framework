@@ -17,3 +17,10 @@
 * Platform configuration: Single-page application (SPA)
 * Redirect URI: http://localhost:3000/
 * Node.js
+
+## DotENV File
+
+Create a .env file in the root of the project and add the following variables:
+* REACT_APP_CLIENT_ID=Enter_the_Application_Id_Here
+* REACT_APP_AUTHORITY=https://login.microsoftonline.com/Enter_the_Tenant_Info_Here
+* REACT_APP_REDIRECT_URI=http://localhost:3000
